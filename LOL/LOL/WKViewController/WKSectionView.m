@@ -29,7 +29,7 @@
 {
     NSArray *normalImages = @[@"icon_home_localMusic_normal.png",@"icon_home_collection_normal.png",@"icon_home_myPlaylist_normal.png",@"icon_home_musicLibrary_normal.png"];
     NSArray *presslImages = @[@"icon_home_localMusic_press.png",@"icon_home_collection_press.png",@"icon_home_myPlaylist_press.png",@"icon_home_musicLibrary_press.png"];
-    NSArray *title = @[@"本地音乐",@"收藏单曲",@"我的歌单",@"音乐库"];
+    NSArray *title = @[@"我的发布",@"大神认证",@"我的留言",@""];
     
     CGFloat width = self.frame.size.width/4.0;
     for (int i = 0; i < 4; i++) {

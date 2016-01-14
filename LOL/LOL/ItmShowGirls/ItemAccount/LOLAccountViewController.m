@@ -8,14 +8,13 @@
 
 #import "LOLAccountViewController.h"
 #import "WKSectionView.h"
-#import "TestViewCotroller.h"
-
+#import "LoginVCNew.h"
 #define TABLEVIEW_CONTENTINSET_TOP 170
 #define PANVIEW_SIZE_HEIGHT TABLEVIEW_CONTENTINSET_TOP+12
 #define TABLEVIEW_HIDE_CONTENTSETOFFY -TABLEVIEW_CONTENTINSET_TOP-30
 #define DEVICE_SCREEN_HEIGHT self.view.frame.size.height
 #define DEVICE_SCREEN_WIDTH self.view.frame.size.width
-#define TABLEVIEW_HIDE_ANIMATIONS_NSTIMEINTERVAL 0.4
+#define TABLEVIEW_HIDE_ANIMATIONS_NSTIMEINTERVAL 0.2
 
 
 
@@ -81,7 +80,7 @@
 {
     UIView * backView = [[UIView alloc] initWithFrame:self.view.bounds];
     _backImageView = [[UIImageView alloc] initWithFrame:backView.bounds];
-    _backImageView.image = [UIImage imageNamed:@"bt_mymusic_time_bg_afternoon.jpg"];
+    _backImageView.image = [UIImage imageNamed:@"bgimg.jpg"];
     _panView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, DEVICE_SCREEN_WIDTH, PANVIEW_SIZE_HEIGHT)];
     self.userHeadImageView = [[UIImageView alloc] init];
     self.userHeadImageView.frame = CGRectMake(DEVICE_SCREEN_WIDTH/2-40,60,80,80);
@@ -194,7 +193,9 @@
                 
                 _panView.frame = CGRectMake(0, -PANVIEW_SIZE_HEIGHT,DEVICE_SCREEN_WIDTH, PANVIEW_SIZE_HEIGHT);
             } completion:^(BOOL finished) {
-                [self presentViewController:[[TestViewCotroller alloc] init] animated:NO completion:nil];
+                LoginVCNew *login = [[LoginVCNew alloc] init];
+                login.loadType = YWBasePresentType;
+                [self presentViewController:login animated:YES completion:nil];
                 _panView.hidden = YES;
             }];
             [scrollView setContentOffset:CGPointMake(0, -DEVICE_SCREEN_HEIGHT) animated:YES];

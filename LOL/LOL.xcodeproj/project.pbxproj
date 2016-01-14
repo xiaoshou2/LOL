@@ -59,7 +59,6 @@
 		35A6A1EB1C3E1D4700B6FDAB /* LOLShowGirlsViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6A1EA1C3E1D4700B6FDAB /* LOLShowGirlsViewContorller.m */; };
 		35A6A1EF1C3E1DFE00B6FDAB /* LOLAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A6A1EE1C3E1DFE00B6FDAB /* LOLAccountViewController.m */; };
 		35B13AFA1C47852A00C7E465 /* WKSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B13AF91C47852A00C7E465 /* WKSectionView.m */; };
-		35B13AFD1C47853D00C7E465 /* TestViewCotroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B13AFC1C47853D00C7E465 /* TestViewCotroller.m */; };
 		35B7E0081C460101004FB896 /* LOLDemandHallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B7E0071C460101004FB896 /* LOLDemandHallVC.m */; };
 		35B7E00A1C4601A3004FB896 /* bgbtn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35B7E0091C4601A3004FB896 /* bgbtn.jpg */; };
 		35B7E00E1C4606CE004FB896 /* DemandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B7E00D1C4606CE004FB896 /* DemandCell.m */; };
@@ -97,6 +96,30 @@
 		35ED03FE1C432BB60088E96B /* home_daka@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35ED03FD1C432BB50088E96B /* home_daka@2x.png */; };
 		35F88AF81C44645F0075EEBE /* LOLNetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F88AF71C44645F0075EEBE /* LOLNetWorkTools.m */; };
 		35F88AFB1C44692B0075EEBE /* LOLAFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F88AFA1C44692B0075EEBE /* LOLAFHTTPClient.m */; };
+		35FE5BC31C482E00003E1A94 /* LoginVCNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE5BC21C482E00003E1A94 /* LoginVCNew.m */; };
+		35FE5BC61C482E09003E1A94 /* RegisterVCNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE5BC51C482E09003E1A94 /* RegisterVCNew.m */; };
+		35FE5BC91C482E12003E1A94 /* ForgetPassWordVCNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE5BC81C482E12003E1A94 /* ForgetPassWordVCNew.m */; };
+		35FE5BCF1C482E2E003E1A94 /* FormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE5BCC1C482E2E003E1A94 /* FormValidator.m */; };
+		35FE5BD01C482E2E003E1A94 /* SHInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE5BCE1C482E2E003E1A94 /* SHInvoker.m */; };
+		35FE5BDA1C482E8A003E1A94 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE5BD31C482E8A003E1A94 /* UIButton+Extension.m */; };
+		35FE5BDB1C482E8A003E1A94 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE5BD51C482E8A003E1A94 /* UIImageView+Extension.m */; };
+		35FE5BDC1C482E8A003E1A94 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE5BD71C482E8A003E1A94 /* UILabel+Extension.m */; };
+		35FE5BDD1C482E8A003E1A94 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE5BD91C482E8A003E1A94 /* UITextField+Extension.m */; };
+		35FE5BEC1C4833F0003E1A94 /* loginBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BDE1C4833F0003E1A94 /* loginBtn.png */; };
+		35FE5BED1C4833F0003E1A94 /* 注册.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BDF1C4833F0003E1A94 /* 注册.png */; };
+		35FE5BEE1C4833F0003E1A94 /* ditu.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE01C4833F0003E1A94 /* ditu.png */; };
+		35FE5BEF1C4833F0003E1A94 /* login_Register_Bord.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE11C4833F0003E1A94 /* login_Register_Bord.png */; };
+		35FE5BF01C4833F0003E1A94 /* login_Return_Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE21C4833F0003E1A94 /* login_Return_Left.png */; };
+		35FE5BF11C4833F0003E1A94 /* login_WhiteFont.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE31C4833F0003E1A94 /* login_WhiteFont.png */; };
+		35FE5BF21C4833F0003E1A94 /* regist_WhiteFont.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE41C4833F0003E1A94 /* regist_WhiteFont.png */; };
+		35FE5BF31C4833F0003E1A94 /* register_huoqu.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE51C4833F0003E1A94 /* register_huoqu.png */; };
+		35FE5BF41C4833F0003E1A94 /* register_loginBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE61C4833F0003E1A94 /* register_loginBtn.png */; };
+		35FE5BF51C4833F0003E1A94 /* register_yanzheng.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE71C4833F0003E1A94 /* register_yanzheng.png */; };
+		35FE5BF61C4833F0003E1A94 /* registerBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE81C4833F0003E1A94 /* registerBtn.png */; };
+		35FE5BF71C4833F0003E1A94 /* touxiang.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BE91C4833F0003E1A94 /* touxiang.png */; };
+		35FE5BF81C4833F0003E1A94 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BEA1C4833F0003E1A94 /* x.png */; };
+		35FE5BF91C4833F0003E1A94 /* zuizhongbanquan.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BEB1C4833F0003E1A94 /* zuizhongbanquan.png */; };
+		35FE5BFB1C483E16003E1A94 /* bgimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5BFA1C483E16003E1A94 /* bgimg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,8 +228,6 @@
 		35A6A1EE1C3E1DFE00B6FDAB /* LOLAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLAccountViewController.m; sourceTree = "<group>"; };
 		35B13AF81C47852A00C7E465 /* WKSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKSectionView.h; sourceTree = "<group>"; };
 		35B13AF91C47852A00C7E465 /* WKSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKSectionView.m; sourceTree = "<group>"; };
-		35B13AFB1C47853D00C7E465 /* TestViewCotroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewCotroller.h; sourceTree = "<group>"; };
-		35B13AFC1C47853D00C7E465 /* TestViewCotroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewCotroller.m; sourceTree = "<group>"; };
 		35B7E0061C460101004FB896 /* LOLDemandHallVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLDemandHallVC.h; sourceTree = "<group>"; };
 		35B7E0071C460101004FB896 /* LOLDemandHallVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLDemandHallVC.m; sourceTree = "<group>"; };
 		35B7E0091C4601A3004FB896 /* bgbtn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgbtn.jpg; sourceTree = "<group>"; };
@@ -257,6 +278,39 @@
 		35F88AF71C44645F0075EEBE /* LOLNetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLNetWorkTools.m; sourceTree = "<group>"; };
 		35F88AF91C44692B0075EEBE /* LOLAFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLAFHTTPClient.h; sourceTree = "<group>"; };
 		35F88AFA1C44692B0075EEBE /* LOLAFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLAFHTTPClient.m; sourceTree = "<group>"; };
+		35FE5BC11C482E00003E1A94 /* LoginVCNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVCNew.h; sourceTree = "<group>"; };
+		35FE5BC21C482E00003E1A94 /* LoginVCNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVCNew.m; sourceTree = "<group>"; };
+		35FE5BC41C482E09003E1A94 /* RegisterVCNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVCNew.h; sourceTree = "<group>"; };
+		35FE5BC51C482E09003E1A94 /* RegisterVCNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVCNew.m; sourceTree = "<group>"; };
+		35FE5BC71C482E12003E1A94 /* ForgetPassWordVCNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPassWordVCNew.h; sourceTree = "<group>"; };
+		35FE5BC81C482E12003E1A94 /* ForgetPassWordVCNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPassWordVCNew.m; sourceTree = "<group>"; };
+		35FE5BCB1C482E2E003E1A94 /* FormValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormValidator.h; sourceTree = "<group>"; };
+		35FE5BCC1C482E2E003E1A94 /* FormValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormValidator.m; sourceTree = "<group>"; };
+		35FE5BCD1C482E2E003E1A94 /* SHInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHInvoker.h; sourceTree = "<group>"; };
+		35FE5BCE1C482E2E003E1A94 /* SHInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHInvoker.m; sourceTree = "<group>"; };
+		35FE5BD21C482E8A003E1A94 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		35FE5BD31C482E8A003E1A94 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		35FE5BD41C482E8A003E1A94 /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		35FE5BD51C482E8A003E1A94 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		35FE5BD61C482E8A003E1A94 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		35FE5BD71C482E8A003E1A94 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		35FE5BD81C482E8A003E1A94 /* UITextField+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extension.h"; sourceTree = "<group>"; };
+		35FE5BD91C482E8A003E1A94 /* UITextField+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
+		35FE5BDE1C4833F0003E1A94 /* loginBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBtn.png; sourceTree = "<group>"; };
+		35FE5BDF1C4833F0003E1A94 /* 注册.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册.png"; sourceTree = "<group>"; };
+		35FE5BE01C4833F0003E1A94 /* ditu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ditu.png; sourceTree = "<group>"; };
+		35FE5BE11C4833F0003E1A94 /* login_Register_Bord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_Register_Bord.png; sourceTree = "<group>"; };
+		35FE5BE21C4833F0003E1A94 /* login_Return_Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_Return_Left.png; sourceTree = "<group>"; };
+		35FE5BE31C4833F0003E1A94 /* login_WhiteFont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_WhiteFont.png; sourceTree = "<group>"; };
+		35FE5BE41C4833F0003E1A94 /* regist_WhiteFont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regist_WhiteFont.png; sourceTree = "<group>"; };
+		35FE5BE51C4833F0003E1A94 /* register_huoqu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_huoqu.png; sourceTree = "<group>"; };
+		35FE5BE61C4833F0003E1A94 /* register_loginBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_loginBtn.png; sourceTree = "<group>"; };
+		35FE5BE71C4833F0003E1A94 /* register_yanzheng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_yanzheng.png; sourceTree = "<group>"; };
+		35FE5BE81C4833F0003E1A94 /* registerBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerBtn.png; sourceTree = "<group>"; };
+		35FE5BE91C4833F0003E1A94 /* touxiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touxiang.png; sourceTree = "<group>"; };
+		35FE5BEA1C4833F0003E1A94 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		35FE5BEB1C4833F0003E1A94 /* zuizhongbanquan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zuizhongbanquan.png; sourceTree = "<group>"; };
+		35FE5BFA1C483E16003E1A94 /* bgimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgimg.jpg; sourceTree = "<group>"; };
 		42DB32303C224370D5158818 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8E18B4A4FD283CB66A08D27D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBE0005C3CE1120126C3590 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -328,6 +382,21 @@
 		3523259B1C3CF423007A3E1D /* LOLImages */ = {
 			isa = PBXGroup;
 			children = (
+				35FE5BFA1C483E16003E1A94 /* bgimg.jpg */,
+				35FE5BDE1C4833F0003E1A94 /* loginBtn.png */,
+				35FE5BDF1C4833F0003E1A94 /* 注册.png */,
+				35FE5BE01C4833F0003E1A94 /* ditu.png */,
+				35FE5BE11C4833F0003E1A94 /* login_Register_Bord.png */,
+				35FE5BE21C4833F0003E1A94 /* login_Return_Left.png */,
+				35FE5BE31C4833F0003E1A94 /* login_WhiteFont.png */,
+				35FE5BE41C4833F0003E1A94 /* regist_WhiteFont.png */,
+				35FE5BE51C4833F0003E1A94 /* register_huoqu.png */,
+				35FE5BE61C4833F0003E1A94 /* register_loginBtn.png */,
+				35FE5BE71C4833F0003E1A94 /* register_yanzheng.png */,
+				35FE5BE81C4833F0003E1A94 /* registerBtn.png */,
+				35FE5BE91C4833F0003E1A94 /* touxiang.png */,
+				35FE5BEA1C4833F0003E1A94 /* x.png */,
+				35FE5BEB1C4833F0003E1A94 /* zuizhongbanquan.png */,
 				35B7E0091C4601A3004FB896 /* bgbtn.jpg */,
 				359A16EE1C450B2800CDBDCC /* icon_new@2x.png */,
 				359A16D71C44C0E400CDBDCC /* yw_load1.png */,
@@ -379,6 +448,7 @@
 				35A6A1E81C3E1CFF00B6FDAB /* ItmShowGirls(妹子秀) */,
 				35A6A1EC1C3E1DC000B6FDAB /* ItemAccount(个人中心) */,
 				358E458C1C43947600596D50 /* LOLGodcertification(大神认证) */,
+				35FE5BBD1C482CC4003E1A94 /* LOLLoginVc(用户登录) */,
 				3523259D1C3CF53B007A3E1D /* LOLCells */,
 			);
 			name = "LOLItems(界面)";
@@ -394,6 +464,7 @@
 		3523259E1C3CF5AF007A3E1D /* LOLLib(第三方库) */ = {
 			isa = PBXGroup;
 			children = (
+				35FE5BD11C482E8A003E1A94 /* Extension */,
 				35B13AF71C47846B00C7E465 /* WKView(个人中心下拉) */,
 				359A16F21C4520D700CDBDCC /* SDCycleScrollView(首页banner) */,
 				359A16D01C44C00C00CDBDCC /* LOLHUD(显示器) */,
@@ -622,8 +693,6 @@
 			children = (
 				35B13AF81C47852A00C7E465 /* WKSectionView.h */,
 				35B13AF91C47852A00C7E465 /* WKSectionView.m */,
-				35B13AFB1C47853D00C7E465 /* TestViewCotroller.h */,
-				35B13AFC1C47853D00C7E465 /* TestViewCotroller.m */,
 			);
 			name = "WKView(个人中心下拉)";
 			path = WKViewController;
@@ -727,6 +796,73 @@
 				35758DA91C447DD1005D58EA /* LOLAPI.h */,
 			);
 			path = LOLNetWork;
+			sourceTree = "<group>";
+		};
+		35FE5BBD1C482CC4003E1A94 /* LOLLoginVc(用户登录) */ = {
+			isa = PBXGroup;
+			children = (
+				35FE5BCA1C482E2E003E1A94 /* LoginClass */,
+				35FE5BBE1C482D17003E1A94 /* LOLLoginVC(登录) */,
+				35FE5BBF1C482D8A003E1A94 /* RegisterVC(注册) */,
+				35FE5BC01C482DD4003E1A94 /* ForgetPassWordVC(忘记密码) */,
+			);
+			name = "LOLLoginVc(用户登录)";
+			sourceTree = "<group>";
+		};
+		35FE5BBE1C482D17003E1A94 /* LOLLoginVC(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				35FE5BC11C482E00003E1A94 /* LoginVCNew.h */,
+				35FE5BC21C482E00003E1A94 /* LoginVCNew.m */,
+			);
+			name = "LOLLoginVC(登录)";
+			path = LOLLogin;
+			sourceTree = "<group>";
+		};
+		35FE5BBF1C482D8A003E1A94 /* RegisterVC(注册) */ = {
+			isa = PBXGroup;
+			children = (
+				35FE5BC41C482E09003E1A94 /* RegisterVCNew.h */,
+				35FE5BC51C482E09003E1A94 /* RegisterVCNew.m */,
+			);
+			name = "RegisterVC(注册)";
+			path = RegisterVC;
+			sourceTree = "<group>";
+		};
+		35FE5BC01C482DD4003E1A94 /* ForgetPassWordVC(忘记密码) */ = {
+			isa = PBXGroup;
+			children = (
+				35FE5BC71C482E12003E1A94 /* ForgetPassWordVCNew.h */,
+				35FE5BC81C482E12003E1A94 /* ForgetPassWordVCNew.m */,
+			);
+			name = "ForgetPassWordVC(忘记密码)";
+			path = ForgetPassWordVC;
+			sourceTree = "<group>";
+		};
+		35FE5BCA1C482E2E003E1A94 /* LoginClass */ = {
+			isa = PBXGroup;
+			children = (
+				35FE5BCB1C482E2E003E1A94 /* FormValidator.h */,
+				35FE5BCC1C482E2E003E1A94 /* FormValidator.m */,
+				35FE5BCD1C482E2E003E1A94 /* SHInvoker.h */,
+				35FE5BCE1C482E2E003E1A94 /* SHInvoker.m */,
+			);
+			path = LoginClass;
+			sourceTree = "<group>";
+		};
+		35FE5BD11C482E8A003E1A94 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				35FE5BD21C482E8A003E1A94 /* UIButton+Extension.h */,
+				35FE5BD31C482E8A003E1A94 /* UIButton+Extension.m */,
+				35FE5BD41C482E8A003E1A94 /* UIImageView+Extension.h */,
+				35FE5BD51C482E8A003E1A94 /* UIImageView+Extension.m */,
+				35FE5BD61C482E8A003E1A94 /* UILabel+Extension.h */,
+				35FE5BD71C482E8A003E1A94 /* UILabel+Extension.m */,
+				35FE5BD81C482E8A003E1A94 /* UITextField+Extension.h */,
+				35FE5BD91C482E8A003E1A94 /* UITextField+Extension.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		CAE74F614D6A54184F3DD08D /* Frameworks */ = {
@@ -858,16 +994,20 @@
 				35CE19B21C40AE3A002FA778 /* dropdown_anim__00003@2x.png in Resources */,
 				359A16E31C44C0E400CDBDCC /* yw_load5.png in Resources */,
 				35865D541C3AE82E0058546B /* LaunchScreen.storyboard in Resources */,
+				35FE5BF81C4833F0003E1A94 /* x.png in Resources */,
 				35ED03FB1C432B000088E96B /* h2x_i_03@2x.png in Resources */,
 				359A16EF1C450B2800CDBDCC /* icon_new@2x.png in Resources */,
 				35ED03FC1C432B000088E96B /* h2x_i_04@2x.png in Resources */,
 				359A16E51C44C0E400CDBDCC /* yw_load7.png in Resources */,
 				35CE19B01C40AE2A002FA778 /* dropdown_anim__00004@2x.png in Resources */,
 				358E45931C439A9200596D50 /* yw_nav_button_arrow@2x.png in Resources */,
+				35FE5BEC1C4833F0003E1A94 /* loginBtn.png in Resources */,
 				35ED03FA1C432B000088E96B /* h2x_i_02@2x.png in Resources */,
 				35CE19A91C40A3D0002FA778 /* home_dot_n.png in Resources */,
 				35ED03FE1C432BB60088E96B /* home_daka@2x.png in Resources */,
 				35CE19A41C40A2D1002FA778 /* yw_home_default_btn.png in Resources */,
+				35FE5BF71C4833F0003E1A94 /* touxiang.png in Resources */,
+				35FE5BF91C4833F0003E1A94 /* zuizhongbanquan.png in Resources */,
 				359A16E21C44C0E400CDBDCC /* yw_load4.png in Resources */,
 				35C627931C3E319D00D4A6FE /* yw_home_selected_new@3x.png in Resources */,
 				359A16DF1C44C0E400CDBDCC /* yw_load1.png in Resources */,
@@ -880,11 +1020,18 @@
 				3547DB8E1C45E69300EEF595 /* h2x_i_05@2x.png in Resources */,
 				359A16E01C44C0E400CDBDCC /* yw_load2.png in Resources */,
 				35CE19AB1C40A3D0002FA778 /* home_dot_s.png in Resources */,
+				35FE5BF11C4833F0003E1A94 /* login_WhiteFont.png in Resources */,
+				35FE5BF61C4833F0003E1A94 /* registerBtn.png in Resources */,
+				35FE5BF31C4833F0003E1A94 /* register_huoqu.png in Resources */,
 				35CE19AC1C40A3D0002FA778 /* home_dot_s@2x.png in Resources */,
 				35C627921C3E319D00D4A6FE /* yw_home_selected_new@2x.png in Resources */,
 				35C6278F1C3E30FB00D4A6FE /* yw_home_normal_new@3x.png in Resources */,
+				35FE5BEF1C4833F0003E1A94 /* login_Register_Bord.png in Resources */,
+				35FE5BED1C4833F0003E1A94 /* 注册.png in Resources */,
 				3547DB8D1C45E69300EEF595 /* h2x_i_04@2x.png in Resources */,
+				35FE5BF21C4833F0003E1A94 /* regist_WhiteFont.png in Resources */,
 				359A16E41C44C0E400CDBDCC /* yw_load6.png in Resources */,
+				35FE5BF01C4833F0003E1A94 /* login_Return_Left.png in Resources */,
 				359A16E11C44C0E400CDBDCC /* yw_load3.png in Resources */,
 				35B7E00A1C4601A3004FB896 /* bgbtn.jpg in Resources */,
 				35CE19AE1C40AE1D002FA778 /* dropdown_anim__00005@2x.png in Resources */,
@@ -894,7 +1041,11 @@
 				35ED03F91C432B000088E96B /* h2x_i_01@2x.png in Resources */,
 				35CE19AA1C40A3D0002FA778 /* home_dot_n@2x.png in Resources */,
 				35CE19B81C40AEDB002FA778 /* dropdown_anim__00000@2x.png in Resources */,
+				35FE5BF51C4833F0003E1A94 /* register_yanzheng.png in Resources */,
+				35FE5BF41C4833F0003E1A94 /* register_loginBtn.png in Resources */,
+				35FE5BEE1C4833F0003E1A94 /* ditu.png in Resources */,
 				35C6278E1C3E30FB00D4A6FE /* yw_home_normal_new@2x.png in Resources */,
+				35FE5BFB1C483E16003E1A94 /* bgimg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -971,14 +1122,16 @@
 				359A17041C4520D700CDBDCC /* TADotView.m in Sources */,
 				35B7E0161C462171004FB896 /* LOLDemandModel.m in Sources */,
 				3589EA191C3F97B800C972D2 /* LOLHomeCellProperty.m in Sources */,
+				35FE5BCF1C482E2E003E1A94 /* FormValidator.m in Sources */,
 				359A17071C4520D700CDBDCC /* SDCycleScrollView.m in Sources */,
 				35C627ED1C3E562700D4A6FE /* LOLRootManger.m in Sources */,
 				35C627AB1C3E487300D4A6FE /* NSMutableDictionary+YW.m in Sources */,
-				35B13AFD1C47853D00C7E465 /* TestViewCotroller.m in Sources */,
+				35FE5BDC1C482E8A003E1A94 /* UILabel+Extension.m in Sources */,
 				358E45881C436F5000596D50 /* LOLSpaceSecCell.m in Sources */,
 				35C6279B1C3E35AD00D4A6FE /* UIButton+YW.m in Sources */,
 				35758DA81C4479D8005D58EA /* LOLAFNetWorkUtility.m in Sources */,
 				359A17061C4520D700CDBDCC /* SDCollectionViewCell.m in Sources */,
+				35FE5BC31C482E00003E1A94 /* LoginVCNew.m in Sources */,
 				359A17031C4520D700CDBDCC /* TAAnimatedDotView.m in Sources */,
 				35C627971C3E340F00D4A6FE /* UIView+Frame.m in Sources */,
 				359A17051C4520D700CDBDCC /* TAPageControl.m in Sources */,
@@ -990,6 +1143,7 @@
 				352325971C3CF20A007A3E1D /* AppDelegate.m in Sources */,
 				35A6A1E61C3E1AD500B6FDAB /* RDVTabBarController.m in Sources */,
 				359A16D31C44C00C00CDBDCC /* UIViewController+MBProgressHUD.m in Sources */,
+				35FE5BDA1C482E8A003E1A94 /* UIButton+Extension.m in Sources */,
 				35C627F41C3E6AC800D4A6FE /* UIImage+YW.m in Sources */,
 				35A6A1E51C3E1AD500B6FDAB /* RDVTabBar.m in Sources */,
 				35F88AF81C44645F0075EEBE /* LOLNetWorkTools.m in Sources */,
@@ -1000,15 +1154,20 @@
 				359A16D61C44C04900CDBDCC /* YWSpritesLoadingView.m in Sources */,
 				359A16EA1C44D2C500CDBDCC /* LOLHomeModel.m in Sources */,
 				35B7E0081C460101004FB896 /* LOLDemandHallVC.m in Sources */,
+				35FE5BD01C482E2E003E1A94 /* SHInvoker.m in Sources */,
 				35C6279F1C3E379600D4A6FE /* UIColor+YW.m in Sources */,
 				359A17021C4520D700CDBDCC /* TAAbstractDotView.m in Sources */,
 				3589EA161C3F89F300C972D2 /* LOLRootNavVC.m in Sources */,
+				35FE5BDD1C482E8A003E1A94 /* UITextField+Extension.m in Sources */,
 				352325A51C3CFD05007A3E1D /* LOLBaseViewController.m in Sources */,
+				35FE5BC61C482E09003E1A94 /* RegisterVCNew.m in Sources */,
 				358F5C3D1C40804F00CCFD1E /* LOLHomeMenuCell.m in Sources */,
 				35C627AA1C3E487300D4A6FE /* NSDictionary+YW.m in Sources */,
 				35B13AFA1C47852A00C7E465 /* WKSectionView.m in Sources */,
 				359A16ED1C44D7F200CDBDCC /* LOLBigGodModel.m in Sources */,
+				35FE5BDB1C482E8A003E1A94 /* UIImageView+Extension.m in Sources */,
 				358F5C431C40812600CCFD1E /* LOLBigGogCell.m in Sources */,
+				35FE5BC91C482E12003E1A94 /* ForgetPassWordVCNew.m in Sources */,
 				352325A81C3D0131007A3E1D /* LOLHomeViewController.m in Sources */,
 				35F88AFB1C44692B0075EEBE /* LOLAFHTTPClient.m in Sources */,
 			);

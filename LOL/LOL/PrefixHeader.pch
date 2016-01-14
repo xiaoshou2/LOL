@@ -22,6 +22,12 @@
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 // 屏幕宽度
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define Width [UIScreen mainScreen].bounds.size.width/320.0
+#define Height [UIScreen mainScreen].bounds.size.height/568.0
+
+#define whitesColor [UIColor whiteColor]
+
 #define IMAGENAMED(NAME)       [UIImage imageNamed:NAME]
 #define KNavBarColor [UIColor colorWithHex:@"#0193e8"]
 
@@ -30,6 +36,8 @@
 
 #define widthScale ScreenWidth/320.
 #define topHeight ISIOS7 ? 64. : 44.
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 //ios7
 #define ISIOS7 [[[UIDevice currentDevice] systemVersion] floatValue] >= 7
 //字体大小（常规/粗体）
@@ -37,6 +45,26 @@
 #define SYSTEMFONT(FONTSIZE)     [UIFont systemFontOfSize:FONTSIZE]
 #define FONT(NAME,FONTSIZE)      [UIFont fontWithName:(NAME) size:(FONTSIZE)]
 #define DLogDebug(fmt, ...) do { if (LOG_LEVEL >= LOG_LEVEL_DEBUG ) { MYNSLog(fmt, "YW_DEBUG", ##__VA_ARGS__); } } while(0);
+
+#import "UILabel+Extension.h"
+#import "UIButton+Extension.h"
+#import "UIImageView+Extension.h"
+#import "LoginVCNew.h"
+#import "RegisterVCNew.h"
+#import "ForgetPassWordVCNew.h"
+#import "AFNetworking.h"
+#import "FormValidator.h"
+#import "SHInvoker.h"
+#import "UITextField+Extension.h"
+#define failTipe @"网络开小差了，稍后试试吧"
+//注册
+#define registAccount @""
+//登陆
+#define loginAccount @""
+//验证码接口
+#define validate @""
+//忘记密码接口
+#define forgetPassW @""
 
 #import "UIView+Frame.h"
 #import "UIButton+YW.h"
